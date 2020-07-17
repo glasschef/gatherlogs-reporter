@@ -3,9 +3,10 @@ pkg_origin=chef
 pkg_maintainer="Chef Support <support@chef.io>"
 pkg_license=('Apache-2.0')
 pkg_deps=(
+  chef/gatherlogs_reporter
   core/bash
   core/ruby
-  chef/gatherlogs_reporter
+  core/gnupg
 )
 
 pkg_build_deps=(
