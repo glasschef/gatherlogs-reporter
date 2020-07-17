@@ -6,7 +6,6 @@ pkg_deps=(
 chef/gatherlogs_reporter/2.0.6/20190905225533
 core/bash/4.4.19/20190115012619
 core/ruby/2.5.5/20190416223112
-core/gnupg
 )
 
 pkg_build_deps=(
